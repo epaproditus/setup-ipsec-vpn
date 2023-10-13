@@ -240,7 +240,7 @@
                                     "Ref": "VpnPassword"
                                 },
                                 "'\n",
-                                "wget -t 3 -T 30 -nv -O vpn.sh https://github.com/hwdsl2/setup-ipsec-vpn/raw/master/vpnsetup.sh\n",
+                                "wget -t 3 -T 30 -nv -O vpn.sh https://github.com/epaproditus/setup-ipsec-vpn/blob/master/vpnsetup.sh\n",
                                 "sh vpn.sh\n",
                                 "mkdir /root/profiles\n",
                                 "cp /root/vpnclient* /root/profiles\n",
